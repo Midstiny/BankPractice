@@ -1,0 +1,18 @@
+  Bank -> C:\Users\Redraker\Documents\Codex\2026-10-09\v\outputs\BankPractice\Bank\bin\Debug\net8.0\Bank.dll
+  BankTests -> C:\Users\Redraker\Documents\Codex\2026-10-09\v\outputs\BankPractice\BankTests\bin\Debug\net8.0\BankTests.dll
+Тестовый запуск для C:\Users\Redraker\Documents\Codex\2026-10-09\v\outputs\BankPractice\BankTests\bin\Debug\net8.0\BankTests.dll (.NETCoreApp,Version=v8.0)
+Версия VSTest 17.11.1 (x64)
+
+Запуск выполнения тестов; подождите...
+Общее количество тестовых файлов (1), соответствующих указанному шаблону.
+  Не пройден Debit_WithValidAmount_UpdatesBalance [19 ms]
+  Сообщение об ошибке:
+   Сбой Assert.AreEqual. Между ожидаемым значением <7,44> и фактическим значением <16,54> требуется разница не более чем <0,001>. Account not debited correctly
+  Трассировка стека:
+     at BankTests.BankAccountTests.Debit_WithValidAmount_UpdatesBalance() in C:\Users\Redraker\Documents\Codex\2026-10-09\v\outputs\BankPractice\BankTests\BankAccountTests.cs:line 21
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+
+Файл результатов: C:\Users\Redraker\Documents\Codex\2026-10-09\v\outputs\BankPractice\evidence\01-bug.trx
+
+Не пройден!: не пройдено     1, пройдено     0, пропущено     0, всего     1, длительность 42 ms. - BankTests.dll (net8.0)

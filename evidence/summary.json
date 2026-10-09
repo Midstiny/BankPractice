@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "label": "Исходный дефект: неверный знак операции",
+      "file": "01-bug.trx",
+      "total": "1",
+      "passed": "0",
+      "failed": "1"
+    },
+    {
+      "label": "После исправления знака операции",
+      "file": "02-fixed.trx",
+      "total": "1",
+      "passed": "1",
+      "failed": "0"
+    },
+    {
+      "label": "Проверка типа исключений через ThrowsException",
+      "file": "03-exceptions.trx",
+      "total": "2",
+      "passed": "2",
+      "failed": "0"
+    },
+    {
+      "label": "Итоговый набор после рефакторинга",
+      "file": "04-final.trx",
+      "total": "3",
+      "passed": "3",
+      "failed": "0"
+    }
+  ],
+  "app_output": "Current balance is $6,54"
+}

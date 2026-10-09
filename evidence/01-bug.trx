@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0bc8e5cb-1f76-4f99-a6c0-63a64ee55948" name="Redraker@DESKTOP-D5U18BI 2026-10-09 11:25:52" runUser="DESKTOP-D5U18BI\Redraker" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-09T11:25:52.1872531+03:00" queuing="2026-10-09T11:25:52.1872536+03:00" start="2026-10-09T11:25:51.4159243+03:00" finish="2026-10-09T11:25:52.1957086+03:00" />
+  <TestSettings name="default" id="233552c5-bd02-4be1-820a-b150e5409336">
+    <Deployment runDeploymentRoot="Redraker_DESKTOP-D5U18BI_2026-10-09_11_25_52" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="bc7eb4d8-4c00-4bc9-9219-4fe0dd5c49cf" testId="a4c614b8-9340-6f81-b6e2-9b9cee43122b" testName="Debit_WithValidAmount_UpdatesBalance" computerName="DESKTOP-D5U18BI" duration="00:00:00.0190409" startTime="2026-10-09T11:25:51.9513894+03:00" endTime="2026-10-09T11:25:51.9934137+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc7eb4d8-4c00-4bc9-9219-4fe0dd5c49cf">
+      <Output>
+        <ErrorInfo>
+          <Message>Сбой Assert.AreEqual. Между ожидаемым значением &lt;7,44&gt; и фактическим значением &lt;16,54&gt; требуется разница не более чем &lt;0,001&gt;. Account not debited correctly</Message>
+          <StackTrace>   at BankTests.BankAccountTests.Debit_WithValidAmount_UpdatesBalance() in C:\Users\Redraker\Documents\Codex\2026-10-09\v\outputs\BankPractice\BankTests\BankAccountTests.cs:line 21&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Debit_WithValidAmount_UpdatesBalance" storage="c:\users\redraker\documents\codex\2026-10-09\v\outputs\bankpractice\banktests\bin\debug\net8.0\banktests.dll" id="a4c614b8-9340-6f81-b6e2-9b9cee43122b">
+      <Execution id="bc7eb4d8-4c00-4bc9-9219-4fe0dd5c49cf" />
+      <TestMethod codeBase="C:\Users\Redraker\Documents\Codex\2026-10-09\v\outputs\BankPractice\BankTests\bin\Debug\net8.0\BankTests.dll" adapterTypeName="executor://mstestadapter/v2" className="BankTests.BankAccountTests" name="Debit_WithValidAmount_UpdatesBalance" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a4c614b8-9340-6f81-b6e2-9b9cee43122b" executionId="bc7eb4d8-4c00-4bc9-9219-4fe0dd5c49cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Список результатов" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" passed="0" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

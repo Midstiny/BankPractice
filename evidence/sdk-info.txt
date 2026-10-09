@@ -1,0 +1,45 @@
+ПАКЕТ SDK ДЛЯ .NET:
+ Version:           8.0.425
+ Commit:            4a98f641c7
+ Workload version:  8.0.400-manifests.ac071bc2
+ MSBuild version:   17.11.48+02bf66295
+
+Среда выполнения:
+ OS Name:     Windows
+ OS Version:  10.0.26200
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Users\Redraker\Documents\Codex\2026-10-09\v\work\dotnet\sdk\8.0.425\
+
+Установленные рабочие нагрузки .NET:
+Настроено на использование loose manifests при установке новых манифестов.
+Нет установленных рабочих нагрузок для отображения.
+
+Host:
+  Version:      8.0.31
+  Architecture: x64
+  Commit:       1219a42122
+
+.NET SDKs installed:
+  8.0.425 [C:\Users\Redraker\Documents\Codex\2026-10-09\v\work\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.31 [C:\Users\Redraker\Documents\Codex\2026-10-09\v\work\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.31 [C:\Users\Redraker\Documents\Codex\2026-10-09\v\work\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.31 [C:\Users\Redraker\Documents\Codex\2026-10-09\v\work\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  Not found
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
